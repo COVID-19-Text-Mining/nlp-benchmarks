@@ -1,0 +1,422 @@
+{
+    "averages": [
+        {
+            "label": "Biological and Chemical Sciences",
+            "precision": 0.8961917032844209,
+            "recall": 0.9280924951929876,
+            "f1": 0.9114309117909658
+        },
+        {
+            "label": "Public Health",
+            "precision": 0.8546987997236186,
+            "recall": 0.8629120890911347,
+            "f1": 0.8584849013365915
+        },
+        {
+            "label": "Physical Sciences & Engineering",
+            "precision": 0.7987856107399044,
+            "recall": 0.799866645366636,
+            "f1": 0.7958440692164087
+        },
+        {
+            "label": "Humanities/Social Sciences",
+            "precision": 0.8693369611519104,
+            "recall": 0.8797959082171436,
+            "f1": 0.8731029384500554
+        },
+        {
+            "label": "Medical Sciences",
+            "precision": 0.8640297496502483,
+            "recall": 0.8677797609504554,
+            "f1": 0.86538506441044
+        },
+        {
+            "label": "General",
+            "precision": 0.49857142857142855,
+            "recall": 0.3703968253968254,
+            "f1": 0.41146187146187146
+        }
+    ],
+    "all_results": [
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.8455882352941176,
+                "recall": 0.8914728682170543,
+                "f1": 0.8679245283018868
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.7671232876712328,
+                "recall": 0.835820895522388,
+                "f1": 0.8
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.7790697674418605,
+                "recall": 0.8375,
+                "f1": 0.8072289156626506
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8363636363636363,
+                "recall": 0.8518518518518519,
+                "f1": 0.8440366972477065
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.7798165137614679,
+                "recall": 0.7798165137614679,
+                "f1": 0.779816513761468
+            },
+            {
+                "label": "General",
+                "precision": 0.4,
+                "recall": 0.3333333333333333,
+                "f1": 0.3636363636363636
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.8650793650793651,
+                "recall": 0.956140350877193,
+                "f1": 0.9083333333333333
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8581081081081081,
+                "recall": 0.8466666666666667,
+                "f1": 0.8523489932885906
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.8,
+                "recall": 0.8095238095238095,
+                "f1": 0.8047337278106509
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8833333333333333,
+                "recall": 0.9298245614035088,
+                "f1": 0.905982905982906
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8415841584158416,
+                "recall": 0.7870370370370371,
+                "f1": 0.8133971291866029
+            },
+            {
+                "label": "General",
+                "precision": 0.6666666666666666,
+                "recall": 0.4444444444444444,
+                "f1": 0.5333333333333333
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.9236641221374046,
+                "recall": 0.9307692307692308,
+                "f1": 0.9272030651340997
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8701298701298701,
+                "recall": 0.8758169934640523,
+                "f1": 0.8729641693811074
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.7878787878787878,
+                "recall": 0.8764044943820225,
+                "f1": 0.8297872340425531
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.9555555555555556,
+                "recall": 0.7678571428571429,
+                "f1": 0.8514851485148515
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8347826086956521,
+                "recall": 0.8888888888888888,
+                "f1": 0.8609865470852016
+            },
+            {
+                "label": "General",
+                "precision": 0.2857142857142857,
+                "recall": 0.3333333333333333,
+                "f1": 0.30769230769230765
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.9015151515151515,
+                "recall": 0.952,
+                "f1": 0.9260700389105058
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8875739644970414,
+                "recall": 0.9202453987730062,
+                "f1": 0.9036144578313252
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.8732394366197183,
+                "recall": 0.6739130434782609,
+                "f1": 0.7607361963190182
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8833333333333333,
+                "recall": 0.9298245614035088,
+                "f1": 0.905982905982906
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8914728682170543,
+                "recall": 0.8984375,
+                "f1": 0.8949416342412452
+            },
+            {
+                "label": "General",
+                "precision": 0.8,
+                "recall": 0.6666666666666666,
+                "f1": 0.7272727272727272
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.8680555555555556,
+                "recall": 0.9541984732824428,
+                "f1": 0.9090909090909092
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8853503184713376,
+                "recall": 0.8323353293413174,
+                "f1": 0.8580246913580246
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.8311688311688312,
+                "recall": 0.7441860465116279,
+                "f1": 0.7852760736196319
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8333333333333334,
+                "recall": 0.8653846153846154,
+                "f1": 0.8490566037735849
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8363636363636363,
+                "recall": 0.9292929292929293,
+                "f1": 0.8803827751196173
+            },
+            {
+                "label": "General",
+                "precision": 0.5,
+                "recall": 0.2,
+                "f1": 0.28571428571428575
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.9318181818181818,
+                "recall": 0.9389312977099237,
+                "f1": 0.9353612167300379
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8789808917197452,
+                "recall": 0.8789808917197452,
+                "f1": 0.8789808917197452
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.8349514563106796,
+                "recall": 0.9052631578947369,
+                "f1": 0.8686868686868687
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8620689655172413,
+                "recall": 0.8333333333333334,
+                "f1": 0.847457627118644
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8983050847457628,
+                "recall": 0.8833333333333333,
+                "f1": 0.8907563025210085
+            },
+            {
+                "label": "General",
+                "precision": 0.4,
+                "recall": 0.3333333333333333,
+                "f1": 0.3636363636363636
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.8796992481203008,
+                "recall": 0.9212598425196851,
+                "f1": 0.9
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8552631578947368,
+                "recall": 0.8387096774193549,
+                "f1": 0.8469055374592834
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.7128712871287128,
+                "recall": 0.8888888888888888,
+                "f1": 0.7912087912087912
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.819672131147541,
+                "recall": 0.847457627118644,
+                "f1": 0.8333333333333333
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8796296296296297,
+                "recall": 0.8260869565217391,
+                "f1": 0.852017937219731
+            },
+            {
+                "label": "General",
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.9064748201438849,
+                "recall": 0.9064748201438849,
+                "f1": 0.9064748201438849
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8205128205128205,
+                "recall": 0.8590604026845637,
+                "f1": 0.839344262295082
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.8133333333333334,
+                "recall": 0.6931818181818182,
+                "f1": 0.7484662576687117
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8857142857142857,
+                "recall": 0.9538461538461539,
+                "f1": 0.9185185185185185
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8983050847457628,
+                "recall": 0.8907563025210085,
+                "f1": 0.8945147679324895
+            },
+            {
+                "label": "General",
+                "precision": 0.3333333333333333,
+                "recall": 0.14285714285714285,
+                "f1": 0.2
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.8851351351351351,
+                "recall": 0.9225352112676056,
+                "f1": 0.903448275862069
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.86,
+                "recall": 0.8716216216216216,
+                "f1": 0.8657718120805369
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.7582417582417582,
+                "recall": 0.7840909090909091,
+                "f1": 0.770949720670391
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.8307692307692308,
+                "recall": 0.8852459016393442,
+                "f1": 0.8571428571428572
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8981481481481481,
+                "recall": 0.8981481481481481,
+                "f1": 0.8981481481481481
+            },
+            {
+                "label": "General",
+                "precision": 0.6,
+                "recall": 0.75,
+                "f1": 0.6666666666666665
+            }
+        ],
+        [
+            {
+                "label": "Biological and Chemical Sciences",
+                "precision": 0.9548872180451128,
+                "recall": 0.9071428571428571,
+                "f1": 0.9304029304029303
+            },
+            {
+                "label": "Public Health",
+                "precision": 0.8639455782312925,
+                "recall": 0.8698630136986302,
+                "f1": 0.8668941979522184
+            },
+            {
+                "label": "Physical Sciences & Engineering",
+                "precision": 0.7971014492753623,
+                "recall": 0.7857142857142857,
+                "f1": 0.7913669064748201
+            },
+            {
+                "label": "Humanities/Social Sciences",
+                "precision": 0.9032258064516129,
+                "recall": 0.9333333333333333,
+                "f1": 0.9180327868852459
+            },
+            {
+                "label": "Medical Sciences",
+                "precision": 0.8818897637795275,
+                "recall": 0.896,
+                "f1": 0.8888888888888887
+            },
+            {
+                "label": "General",
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666
+            }
+        ]
+    ]
+}
