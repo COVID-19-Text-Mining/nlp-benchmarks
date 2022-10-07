@@ -26,9 +26,10 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import f1_score, precision_score, recall_score
 
 device = 'cuda' if cuda.is_available() else 'cpu'
+print("Using Device:", device)
 
 MAX_LEN = 512
-TRAIN_BATCH_SIZE = 1
+TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 4
 EPOCHS = 6
 LEARNING_RATE = 1e-05
@@ -159,7 +160,7 @@ for training_set, testing_set in get_datasets(new_df, kf):
 
     for epoch in range(EPOCHS):
         model.train()
-        for _, data in tqdm(enumerate(training_loader, 0)):
+        for i, data in tqdm(enumerate(training_loader, 0)):
             ids = data['ids'].to(device, dtype = torch.long)
             mask = data['mask'].to(device, dtype = torch.long)
             token_type_ids = data['token_type_ids'].to(device, dtype = torch.long)
@@ -169,11 +170,10 @@ for training_set, testing_set in get_datasets(new_df, kf):
 
             optimizer.zero_grad()
             loss = loss_fn(outputs, targets)
-            if _%5000==0:
-                print(f'Epoch: {epoch}, Loss:  {loss.item()}')
-            
+            item = loss.item()
             loss.backward()
             optimizer.step()
+        print(f"Epoch: {epoch}, Loss:  {item}")
 
     model.eval()
     fin_targets=[]
@@ -198,7 +198,9 @@ for training_set, testing_set in get_datasets(new_df, kf):
         recall = recall_score(np.array(targets)[:, i], np.array(outputs)[:, i])
         f1 = f1_score(np.array(targets)[:, i], np.array(outputs)[:, i])
         precision_recall_f1s.append({'label': category_labels[i], 'precision': precision, 'recall': recall, 'f1': f1})
-    results.append(precision_recall_f1s)
+        
+
+    results.append((precision_recall_f1s, fin_targets, fin_outputs))
 
 #compute average scores for all folds
 avg_precision_recall_f1s = []
@@ -207,6 +209,7 @@ for i in range(6):
     avg_recall = np.zeros(6)
     avg_f1 = np.zeros(6)
     for result in results:
+        result = result[0]
         avg_precision[i] += result[i]['precision']
         avg_recall[i] += result[i]['recall']
         avg_f1[i] += result[i]['f1']
@@ -215,6 +218,9 @@ for i in range(6):
     avg_f1[i] /= len(results)
     avg_precision_recall_f1s.append({'label': category_labels[i], 'precision': avg_precision[i], 'recall': avg_recall[i], 'f1': avg_f1[i]})
 
-output = {'averages': avg_precision_recall_f1s, 'all_results': results}
+all_targets = [entry[1] for entry in results]
+all_outputs = [entry[2] for entry in results]
+
+output = {'average_f1_precison_recall': avg_precision_recall_f1s, 'all_f1_precison_recall': results, 'targets': all_targets, 'outputs': all_outputs}
 with open('SciBERT_benchmark_results.json', 'w') as f:
     json.dump(output, f)
